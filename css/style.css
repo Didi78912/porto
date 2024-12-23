@@ -1,0 +1,42 @@
+td a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #697cf5;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.background {
+    background-image: url("../img/photo (5).jpg");
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mb-10 {
+    margin-bottom: 10rem;
+}
